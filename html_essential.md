@@ -2,6 +2,7 @@
 ###### *Created: Minh Quang Pham* 
 ###### Các nguồn tham khảo: Freecodecamp, OpenAI-GPT4o
 ---
+# 0. Menu
 > Title list: Gồm 30 mục mô tả cơ bản về các thẻ phổ biến thường dùng trong HTML
 - [1. Title tag](#1-h1--h6-title-element-tag)
 - [2. Paragraph tag](#2-p-paragraph-element-tag)
@@ -79,7 +80,7 @@ Trong ví dụ trên:
 * **Mức độ quan trọng:** Cấp cao hơn (số nhỏ hơn) thể hiện nội dung quan trọng hơn.
 * **Sử dụng đúng cách:** Nên sử dụng một `<h1>` chính cho mỗi trang và sử dụng các thẻ tiêu đề thấp hơn để phân chia nội dung thành các phần nhỏ hơn.
 
-
+- [0. Menu](#0-menu)
 
 # 2. `<p>` (paragraph element tag)
 > Phần tử `p` được sử dụng để tạo ra một đoạn văn bản trên trang web.
@@ -101,6 +102,8 @@ Trong ví dụ trên, phần tử `p` chứa nội dung "Đây là một đoạn
 <h1>This is a heading</h1> 
 ```
 
+- [0. Menu](#0-menu)
+
 # 3. Comment syntax
 
 Chú thích (Commenting) cho phép bạn để lại thông điệp mà không làm ảnh hưởng đến hiển thị trên trình duyệt. Nó cũng cho phép bạn làm mã không hoạt động. Một chú thích trong HTML bắt đầu với `<!--`, chứa bất kỳ số lượng dòng văn bản nào và kết thúc với `-->`.
@@ -110,6 +113,8 @@ Dưới đây là một ví dụ về chú thích với nội dung TODO: Xóa h1
 ```html
 <!-- TODO: Remove h1 -->
 ```
+
+- [0. Menu](#0-menu)
 
 # 4. `<main>` (semantic element)
 
@@ -125,6 +130,8 @@ Ví dụ:
   <p>This is where you will find the best cat photos on the internet!</p>
 </main>
 ```
+
+- [0. Menu](#0-menu)
 
 # 5. Technical:  Nesting
 
@@ -202,6 +209,8 @@ Ví dụ:
 ### Lưu ý
 - Sử dụng thụt lề để mã dễ đọc.
 - Tuân thủ quy tắc đóng thẻ để tránh lỗi hiển thị hoặc không tương thích giữa các trình duyệt.
+
+- [0. Menu](#0-menu)
 
 # 6. `<img>` (element)
 
@@ -307,6 +316,8 @@ Thẻ `<img>` trong HTML được sử dụng để hiển thị hình ảnh tr�
          height: auto;
      }
      ```
+
+     - [0. Menu](#0-menu)
 
 # 7. `<a>` (anchor element)
 
@@ -418,6 +429,8 @@ Thẻ `<a>` trong HTML (anchor tag) được sử dụng để tạo liên kết
 3. **Sử dụng `rel="noopener noreferrer"` với `target="_blank"`**: Điều này giúp bảo mật tốt hơn và ngăn các trang bên ngoài truy cập vào cửa sổ của bạn.
 4. **Không lạm dụng liên kết**: Chỉ thêm liên kết khi cần thiết và liên quan đến nội dung.
 
+- [0. Menu](#0-menu)
+
 # 8. Technical: Nesting `<a>` into `<p>` 
 
 Lồng thẻ `<a>` (liên kết) bên trong thẻ `<p>` (đoạn văn) là một cách hợp lý trong HTML vì nó giúp cấu trúc trang web trở nên dễ hiểu hơn và đảm bảo tính hợp lệ của mã HTML. Dưới đây là một số lý do vì sao việc lồng thẻ `<a>` vào trong thẻ `<p>` là hợp lý:
@@ -455,6 +468,8 @@ Lồng thẻ `<a>` (liên kết) bên trong thẻ `<p>` (đoạn văn) là một
 Ở ví dụ trên:
 - Liên kết `<a>` là một phần của đoạn văn, giúp người dùng dễ dàng nhấp vào mà không cần phải rời khỏi ngữ cảnh của văn bản.
 - Đoạn văn bản này có thể được trình bày tốt trong các trang web, dễ đọc và dễ hiểu.
+
+- [0. Menu](#0-menu)
 
 # 9. Technical: Wrapping content in anchor tags
 
@@ -529,6 +544,8 @@ Theo chuẩn HTML5, bạn có thể gói một số thẻ HTML bên trong thẻ 
 ---
 - Việc **gói các thẻ bên trong thẻ `<a>`** là hợp lệ khi các thẻ đó là các thẻ inline hoặc thẻ nội tuyến như `<span>`, `<img>`, `<strong>`, hoặc các thẻ có thể chứa nội dung văn bản hoặc hình ảnh.
 - Tuy nhiên, không nên lồng các thẻ khối như `<div>`, `<p>`, `<header>`, `<footer>` vào thẻ `<a>`, vì chúng không hợp lệ và có thể gây lỗi khi hiển thị hoặc khi phân tích cú pháp HTML.
+
+- [0. Menu](#0-menu)
 
 # 10. `<section>` (semantic element)
 
@@ -638,6 +655,8 @@ Thẻ `<section>` trong HTML là một phần tử cấu trúc được sử d�
    - Nếu phần nội dung không cần phải được phân chia thành một chủ đề rõ ràng, thì không nên sử dụng thẻ `<section>`. Thay vào đó, bạn có thể sử dụng các thẻ khác như `<div>` hoặc các thẻ inline.
 
 Thẻ `<section>` là một công cụ mạnh mẽ trong việc tổ chức và phân chia nội dung trên trang web. Việc sử dụng thẻ này giúp cải thiện cấu trúc trang web, làm cho nội dung dễ tiếp cận và dễ hiểu hơn đối với cả người dùng và công cụ tìm kiếm.
+
+- [0. Menu](#0-menu)
 
 # 11. `<ul>` (list element)
 
@@ -780,6 +799,8 @@ Kết quả hiển thị:
 
 Thẻ `<ul>` rất hữu ích khi bạn muốn tạo danh sách các mục không có thứ tự, giúp cải thiện khả năng tổ chức và trình bày nội dung trên trang web. Thẻ này có thể kết hợp với các thẻ khác như `<li>`, `<a>`, và sử dụng CSS để tùy chỉnh kiểu hiển thị.
 
+- [0. Menu](#0-menu)
+
 # 12. `<figure>` (semantic element)
 
 Thẻ `<figure>` trong HTML được sử dụng để nhóm một hình ảnh hoặc nội dung liên quan đến hình ảnh (như chú thích, video, bảng, hoặc đồ họa) và có thể kèm theo một chú thích với thẻ `<figcaption>`. Thẻ `<figure>` giúp cải thiện khả năng truy cập và SEO bằng cách liên kết trực tiếp giữa hình ảnh và chú thích của nó.
@@ -854,6 +875,8 @@ Kết quả hiển thị sẽ là:
 
 Thẻ `<figure>` kết hợp với thẻ `<h3>` là một cách tuyệt vời để tạo ra cấu trúc rõ ràng và dễ hiểu cho các phần nội dung có hình ảnh trong trang web của bạn. Việc sử dụng `<figure>` giúp tổ chức các nội dung hình ảnh, trong khi thẻ `<h3>` tạo ra tiêu đề rõ ràng, giúp cải thiện khả năng truy cập và SEO.
 
+- [0. Menu](#0-menu)
+
 # 13. `<em>` (emphasis element)
 
 Thẻ `<em>` trong HTML được sử dụng để đánh dấu văn bản cần được nhấn mạnh hoặc nhấn mạnh về mặt ngữ nghĩa, giúp người đọc hoặc công cụ tìm kiếm hiểu rằng nội dung này quan trọng hơn các phần còn lại. Nội dung bên trong thẻ `<em>` thường được hiển thị dưới dạng in nghiêng (italic) trong trình duyệt mặc định, mặc dù kiểu hiển thị có thể được thay đổi bằng CSS.
@@ -927,6 +950,8 @@ Kết quả hiển thị:
 
 
 Thẻ `<em>` là một công cụ hữu ích trong HTML để nhấn mạnh ngữ nghĩa của văn bản, giúp làm rõ nội dung quan trọng trong trang web. Ngoài ra, thẻ này còn hỗ trợ SEO và khả năng truy cập, đồng thời giúp trình bày văn bản một cách hợp lý và dễ hiểu hơn.
+
+- [0. Menu](#0-menu)
 
 # 14. `<ol>` (list element)
 
@@ -1042,6 +1067,8 @@ V. Conclusion
 
 Thẻ `<ol>` là một công cụ hữu ích trong HTML để tạo các danh sách có thứ tự, cho phép bạn tổ chức nội dung theo một cách dễ hiểu và có trật tự. Thẻ này có thể được tùy chỉnh để thay đổi kiểu đánh số, bắt đầu từ số khác, hoặc đảo ngược thứ tự, giúp bạn linh hoạt trong việc trình bày thông tin.
 
+- [0. Menu](#0-menu)
+
 # 15. `<strong>` (element)
 
 Thẻ `<strong>` trong HTML được sử dụng để nhấn mạnh một phần nội dung trong văn bản, thể hiện rằng nội dung này có tầm quan trọng đặc biệt. Theo ngữ nghĩa, thẻ `<strong>` không chỉ làm nổi bật văn bản mà còn giúp người đọc hoặc các công cụ tìm kiếm nhận ra rằng phần văn bản này có ý nghĩa quan trọng.
@@ -1119,6 +1146,8 @@ Kết quả hiển thị:
 
 
 Thẻ `<strong>` là một công cụ hữu ích trong HTML để nhấn mạnh các phần văn bản quan trọng về mặt ngữ nghĩa, giúp người đọc nhận diện được các ý chính trong bài viết. Thẻ này không chỉ thay đổi kiểu hiển thị mà còn giúp cải thiện SEO và khả năng truy cập cho trang web của bạn.
+
+- [0. Menu](#0-menu)
 
 # 16. `<form>` (semantic element)
 
@@ -1246,6 +1275,8 @@ Thẻ `<form>` trong HTML được sử dụng để tạo một biểu mẫu (f
 ```
 
 Thẻ `<form>` là một phần quan trọng trong HTML, giúp người dùng tương tác với trang web thông qua việc nhập liệu và gửi thông tin. Nó có thể chứa nhiều loại phần tử nhập liệu khác nhau, từ ô văn bản, checkbox, radio button đến các nút bấm. Biểu mẫu có thể được tùy chỉnh thông qua các thuộc tính như `action`, `method`, `enctype` và `target` để đáp ứng các yêu cầu cụ thể của ứng dụng web.
+
+- [0. Menu](#0-menu)
 
 
 # 17. `<input>` (element)
@@ -1505,6 +1536,8 @@ Lồng thẻ `<input>` bên trong thẻ `<form>` là một cách tổ chức h�
 ```
 Lồng thẻ `<input>` bên trong thẻ `<form>` là cách cơ bản để xây dựng các biểu mẫu trong HTML. Việc này giúp tổ chức và thu thập thông tin từ người dùng một cách dễ dàng. Biểu mẫu có thể bao gồm nhiều loại trường nhập liệu, và thẻ `<input>` cung cấp khả năng tương tác linh hoạt với người dùng.
 
+- [0. Menu](#0-menu)
+
 # 18. `placeholder` (attribute)
 
 Trong HTML, thuộc tính `placeholder` được sử dụng trong các thẻ nhập liệu (như thẻ `<input>` hoặc `<textarea>`) để hiển thị một gợi ý văn bản trong trường nhập liệu khi trường đó chưa được người dùng điền dữ liệu. Văn bản này sẽ biến mất khi người dùng bắt đầu nhập thông tin vào trường.
@@ -1565,6 +1598,8 @@ Trong HTML, thuộc tính `placeholder` được sử dụng trong các thẻ nh
 
 
 Thuộc tính `placeholder` trong HTML là một công cụ hữu ích để cung cấp hướng dẫn ngắn gọn cho người dùng khi nhập liệu vào các trường. Tuy nhiên, cần lưu ý rằng nó không nên thay thế các thẻ `<label>` để đảm bảo tính khả dụng và trải nghiệm người dùng tốt nhất.
+
+- [0. Menu](#0-menu)
 
 # 19. `required` (attribute)
 
@@ -1641,6 +1676,8 @@ Thuộc tính `required` có thể được áp dụng cho các thẻ nhập li�
 
 
 Thuộc tính `required` là một công cụ đơn giản nhưng hữu ích trong việc yêu cầu người dùng nhập dữ liệu vào các trường quan trọng trong biểu mẫu. Nó giúp cải thiện tính khả dụng và ngăn ngừa việc gửi biểu mẫu thiếu thông tin quan trọng. Tuy nhiên, bạn vẫn nên kết hợp với các kiểm tra phía server để đảm bảo tính bảo mật.
+
+- [0. Menu](#0-menu)
 
 # 20. `<button>` (element)
 
@@ -1729,6 +1766,8 @@ Thẻ `<button>` và thẻ `<input>` (với type="button") có thể có chức 
 
 Thẻ `<button>` trong HTML là một phần tử rất linh hoạt và dễ sử dụng để tạo các nút bấm trong các trang web hoặc biểu mẫu. Bạn có thể kết hợp nó với các hành động JavaScript hoặc các chức năng mặc định của biểu mẫu, như gửi hoặc đặt lại dữ liệu.
 
+- [0. Menu](#0-menu)
+
 # 21. `radio` (attribute)
 
 Thẻ `<input>` với thuộc tính `type="radio"` trong HTML được sử dụng để tạo các nút chọn (radio buttons). Nút radio cho phép người dùng chọn chỉ một giá trị từ một nhóm các lựa chọn. Các nút radio thường được nhóm lại với nhau bằng cách sử dụng cùng một giá trị cho thuộc tính `name`, để đảm bảo rằng chỉ một nút trong nhóm có thể được chọn cùng lúc.
@@ -1801,6 +1840,7 @@ Thẻ `<input>` với thuộc tính `type="radio"` trong HTML được sử dụ
 
 Thẻ `<input type="radio">` là một phần quan trọng trong việc tạo các lựa chọn đơn trong các biểu mẫu HTML. Nó cho phép người dùng chọn chỉ một giá trị từ một nhóm các lựa chọn, và có thể dễ dàng kết hợp với JavaScript để xử lý các hành động khi người dùng chọn một trong các nút radio.
 
+- [0. Menu](#0-menu)
 
 # 22. `<label>` (semantic element)
 
@@ -1871,6 +1911,7 @@ Ví dụ với thẻ checkbox:
 
 Thẻ `<label>` là một phần quan trọng trong việc tạo ra các biểu mẫu dễ sử dụng và dễ truy cập. Nó giúp cải thiện khả năng tương tác của người dùng, đặc biệt là với các công cụ hỗ trợ như màn hình đọc. Việc sử dụng thẻ `<label>` một cách hợp lý không chỉ mang lại trải nghiệm người dùng tốt hơn mà còn giúp trang web của bạn dễ dàng tuân thủ các nguyên tắc về truy cập web.
 
+- [0. Menu](#0-menu)
 
 # 23. `id` (attribute)
 
@@ -1992,6 +2033,8 @@ Thuộc tính `id` trong HTML là một thuộc tính quan trọng dùng để g
 
 Thuộc tính `id` trong HTML là một công cụ mạnh mẽ để xác định các phần tử trên trang web. Nó cho phép bạn áp dụng CSS, truy cập và thay đổi phần tử bằng JavaScript, cũng như điều hướng người dùng đến các phần cụ thể trong trang. Việc sử dụng `id` đúng cách giúp bạn tối ưu hóa trải nghiệm người dùng và dễ dàng quản lý các phần tử trong trang web.
 
+- [0. Menu](#0-menu)
+
 # 24.  `<fieldset>` and `<legend>` (semantic element)
 
 Thẻ `<fieldset>` trong HTML được sử dụng để nhóm các phần tử trong một biểu mẫu (form) lại với nhau, giúp cải thiện tính tổ chức và dễ đọc cho người dùng. Nó tạo ra một khung viền xung quanh nhóm các phần tử, giúp phân tách các phần khác nhau trong biểu mẫu. Thẻ `<fieldset>` thường được sử dụng kết hợp với thẻ `<legend>` để mô tả nhóm các phần tử trong biểu mẫu.
@@ -2091,6 +2134,8 @@ Ví dụ:
 
 Thẻ `<fieldset>` là một công cụ hữu ích trong việc nhóm các phần tử trong biểu mẫu HTML, giúp tăng tính tổ chức và dễ hiểu cho người dùng. Khi kết hợp với thẻ `<legend>`, bạn có thể mô tả rõ ràng các nhóm thông tin trong biểu mẫu. Việc sử dụng thẻ này giúp biểu mẫu của bạn trở nên dễ sử dụng và dễ truy cập hơn, đặc biệt là đối với những người sử dụng công cụ hỗ trợ.
 
+- [0. Menu](#0-menu)
+
 # 25. `checked` (attribute)
 
 Thuộc tính `checked` trong HTML được sử dụng với các phần tử input có loại là `radio` hoặc `checkbox` để xác định xem chúng có được chọn (checked) hay không. Khi thuộc tính `checked` được thêm vào phần tử, nó sẽ được hiển thị là đã chọn khi trang được tải.
@@ -2144,6 +2189,8 @@ Thuộc tính `checked` trong HTML được sử dụng với các phần tử i
 
 
 Thuộc tính `checked` là một công cụ quan trọng trong HTML giúp xác định trạng thái ban đầu của các phần tử checkbox và radio button trong biểu mẫu. Nó cho phép bạn dễ dàng xác định các lựa chọn mặc định và có thể được thay đổi động thông qua JavaScript.
+
+- [0. Menu](#0-menu)
 
 # 26. `<header>` (semantic element)
 
@@ -2279,6 +2326,8 @@ Bạn có thể sử dụng CSS để thay đổi giao diện của phần đầ
 
 Thẻ `<header>` là một phần quan trọng trong việc xây dựng cấu trúc trang web, giúp cung cấp thông tin về trang web, điều hướng người dùng và tăng khả năng sử dụng của trang. Thẻ này có thể chứa nhiều loại nội dung khác nhau như tiêu đề, logo, menu điều hướng, và các công cụ tìm kiếm. Sử dụng thẻ `<header>` giúp làm cho trang web của bạn trở nên dễ dàng điều hướng và dễ hiểu hơn đối với người dùng.
 
+- [0. Menu](#0-menu)
+
 # 27. `<footer>` (semantic element)
 
 Thẻ `<footer>` trong HTML được sử dụng để định nghĩa phần chân trang của một tài liệu hoặc một phần trong tài liệu. Thông thường, thẻ `<footer>` chứa thông tin bổ sung về trang web, chẳng hạn như bản quyền, liên kết đến các trang chính sách, thông tin liên hệ, hoặc các liên kết mạng xã hội. Thẻ này có thể xuất hiện một lần trong tài liệu, hoặc có thể xuất hiện nhiều lần trong các phần khác nhau của tài liệu.
@@ -2385,6 +2434,8 @@ Bạn có thể sử dụng CSS để thay đổi kiểu dáng của phần châ
 
 Thẻ `<footer>` là một phần quan trọng trong việc xây dựng cấu trúc trang web. Nó giúp cung cấp thông tin bổ sung cho người dùng và cải thiện khả năng điều hướng của trang web. Mặc dù nó thường xuất hiện ở cuối trang, bạn có thể sử dụng thẻ `<footer>` ở bất kỳ đâu trong tài liệu, đặc biệt là khi bạn muốn nhóm các thông tin bổ sung lại với nhau.
 
+- [0. Menu](#0-menu)
+
 # 28. `html:5` (HTML5 template)
 
 `html:5` là một phím tắt được sử dụng trong một số trình soạn thảo mã nguồn (ví dụ như Visual Studio Code) để tạo ra một cấu trúc HTML5 cơ bản một cách nhanh chóng. Khi bạn nhập `html:5` và nhấn **Tab**, trình soạn thảo sẽ tự động tạo ra một mẫu HTML5 chuẩn.
@@ -2463,6 +2514,8 @@ Dưới đây là chi tiết về các phần và thẻ trong template HTML5 đ�
 - **Dễ dàng mở rộng**: Sau khi có template cơ bản, bạn có thể nhanh chóng thêm nội dung vào thẻ `<body>` và xây dựng trang web của mình.
 
 Template `html:5` giúp bạn tạo một trang web với cấu trúc chuẩn ngay từ đầu, giảm thiểu lỗi và giúp quá trình phát triển trở nên dễ dàng và nhanh chóng hơn.
+
+- [0. Menu](#0-menu)
 
 # 29. `<meta>` (metadata)
 
@@ -2572,6 +2625,8 @@ Thẻ `<meta>` trong HTML là một thẻ đặc biệt được sử dụng đ�
 - **Tương thích với các trình duyệt cũ**: Thẻ `<meta http-equiv="X-UA-Compatible">` giúp đảm bảo trang web hoạt động tốt trên các trình duyệt cũ, đặc biệt là Internet Explorer.
 
 Thẻ `<meta>` là một phần không thể thiếu trong việc tối ưu hóa và cấu hình trang web của bạn, giúp nó hoạt động tốt trên các trình duyệt và công cụ tìm kiếm.
+
+- [0. Menu](#0-menu)
 
 # 30. `<link>` (link document)
 
@@ -2683,3 +2738,5 @@ Thẻ `<link>` trong HTML là một thẻ không có nội dung và được s�
 - **Liên kết tài nguyên bên ngoài**: Thẻ `<link>` giúp liên kết các tài nguyên như tệp CSS, biểu tượng trang web, và tệp manifest một cách dễ dàng, giúp cải thiện trải nghiệm người dùng và tối ưu hóa hiệu suất trang web.
 - **Quản lý tài nguyên hiệu quả**: Việc sử dụng thẻ `<link>` cho phép bạn quản lý các tài nguyên bên ngoài một cách linh hoạt và dễ dàng thay đổi mà không cần thay đổi nội dung của tài liệu HTML.
 - **Tối ưu hóa SEO và trải nghiệm người dùng**: Các tài nguyên như favicon, font chữ và tệp manifest giúp cải thiện giao diện người dùng và tương tác với trang web.
+
+- [0. Menu](#0-menu)
