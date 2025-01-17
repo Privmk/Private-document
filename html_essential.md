@@ -35,6 +35,8 @@
 - [29. metadata](#29-meta-metadata)
 - [30. Link document to html](#30-link-link-document)
 - [31. Style element](#31-style-css-element)
+- [32. Article (semantic element)](#32-article-semantic-element)
+- [33. Div (semantic element)](#33-div-semantic-element)
 
 # 1. `<H1> ... <H6>` (title element tag)
 
@@ -2796,6 +2798,117 @@ Thẻ `<style>` trong HTML được sử dụng để viết các quy tắc CSS 
    - **Nhược điểm**:
      - Khó quản lý khi làm việc với nhiều tệp HTML.
      - Không tối ưu khi cần sử dụng chung các quy tắc CSS.
+
+# 32. `<article>` (semantic element)
+
+Thẻ `<article>` trong HTML được sử dụng để đánh dấu một phần nội dung độc lập, có thể tái sử dụng hoặc phân phối lại, như bài viết, tin tức, hoặc nội dung blog. Mục đích của thẻ này là để xác định một khối nội dung có thể tồn tại độc lập và được hiểu như một đơn vị thông tin riêng biệt.
+
+### Thuộc tính của thẻ `<article>`:
+- **Không có thuộc tính đặc biệt** trong HTML5.
+- Tuy nhiên, thẻ này có thể chứa các phần tử như tiêu đề, đoạn văn, hình ảnh, video, liên kết, v.v.
+
+### Ví dụ sử dụng thẻ `<article>` trong HTML và CSS:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Example</title>
+    <style>
+        article {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        article h2 {
+            color: #333;
+        }
+        article p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <article>
+        <h2>Exploring the World of CSS</h2>
+        <p>CSS (Cascading Style Sheets) is a powerful tool for designing and styling web pages. In this article, we explore its core concepts and properties.</p>
+    </article>
+
+</body>
+</html>
+```
+
+### Giải thích:
+- Thẻ `<article>` bao gồm một bài viết với tiêu đề `<h2>` và một đoạn văn `<p>`.
+- CSS trong phần `<style>` định dạng cho thẻ `<article>`, bao gồm màu nền, đệm, lề, và viền. Các phần tử trong thẻ `<article>` như tiêu đề và đoạn văn cũng được định dạng.
+
+Thẻ `<article>` rất hữu ích khi bạn muốn đánh dấu các phần nội dung có thể được chia sẻ hoặc tái sử dụng, như bài viết trên blog, bài báo tin tức, hay các phần trong diễn đàn.
+
+- [0. Menu](#0-menu)
+
+# 33. `<div>` (semantic element)
+
+Thẻ `<div>` trong HTML là một phần tử khối (block-level element) được sử dụng để nhóm các phần tử khác lại với nhau, nhằm mục đích áp dụng các kiểu dáng (CSS) hoặc xử lý bằng JavaScript. Thẻ `<div>` không có ý nghĩa cụ thể về nội dung, nó chỉ đóng vai trò như một khối chứa, giúp cấu trúc và tổ chức trang web.
+
+### Thuộc tính của thẻ `<div>`:
+- **Không có thuộc tính đặc biệt** trong HTML5, nhưng bạn có thể sử dụng các thuộc tính như `id`, `class`, `style` để định danh và áp dụng các kiểu dáng.
+  
+### Ví dụ sử dụng thẻ `<div>` trong HTML và CSS:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Example</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
+```
+
+### Giải thích:
+- Thẻ `<div class="container">` là một thẻ bao bọc chứa toàn bộ nội dung của trang.
+- Thẻ `<div class="box">` được sử dụng để tạo ra các khối nhỏ có kích thước và màu sắc cụ thể, chúng được nhóm lại trong phần tử chứa `.container`.
+- CSS được áp dụng để tạo kiểu cho thẻ `<div>`, ví dụ như: chiều rộng, chiều cao, màu nền, khoảng cách giữa các phần tử.
+
+### Khi nào sử dụng thẻ `<div>`:
+- **Tạo cấu trúc trang web**: Bạn có thể sử dụng thẻ `<div>` để chia nhỏ và sắp xếp các phần khác nhau của trang, như header, footer, sidebar, hoặc nội dung chính.
+- **Áp dụng CSS hoặc JavaScript**: Khi bạn cần nhóm các phần tử lại với nhau để áp dụng kiểu dáng chung hoặc xử lý bằng JavaScript.
+
+Thẻ `<div>` không mang bất kỳ ý nghĩa nội dung nào (không như thẻ `<article>`, `<section>`, hoặc `<header>`), vì vậy nó chỉ là công cụ để tổ chức và tạo cấu trúc cho trang web.
+
+- [0. Menu](#0-menu)
+
+
 
 ### Lưu ý:
 - Với các dự án lớn, nên sử dụng tệp CSS riêng (external CSS) để tách biệt mã HTML và CSS.
