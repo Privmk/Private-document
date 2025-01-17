@@ -34,7 +34,7 @@
 - [28. HTML5 template](#28-html5-html5-template)
 - [29. metadata](#29-meta-metadata)
 - [30. Link document to html](#30-link-link-document)
-
+- [31. Style element](#31-style-css-element)
 
 # 1. `<H1> ... <H6>` (title element tag)
 
@@ -2738,5 +2738,66 @@ Thẻ `<link>` trong HTML là một thẻ không có nội dung và được s�
 - **Liên kết tài nguyên bên ngoài**: Thẻ `<link>` giúp liên kết các tài nguyên như tệp CSS, biểu tượng trang web, và tệp manifest một cách dễ dàng, giúp cải thiện trải nghiệm người dùng và tối ưu hóa hiệu suất trang web.
 - **Quản lý tài nguyên hiệu quả**: Việc sử dụng thẻ `<link>` cho phép bạn quản lý các tài nguyên bên ngoài một cách linh hoạt và dễ dàng thay đổi mà không cần thay đổi nội dung của tài liệu HTML.
 - **Tối ưu hóa SEO và trải nghiệm người dùng**: Các tài nguyên như favicon, font chữ và tệp manifest giúp cải thiện giao diện người dùng và tương tác với trang web.
+
+- [0. Menu](#0-menu)
+
+# 31. `<style>` (CSS element)
+
+Thẻ `<style>` trong HTML được sử dụng để viết các quy tắc CSS trực tiếp trong tài liệu HTML. Các quy tắc này thường được đặt trong phần `<head>` của tài liệu để định dạng và thiết kế các phần tử HTML.
+
+### Cú pháp cơ bản:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ Style</title>
+    <style>
+        /* CSS viết trong đây */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Đây là thẻ style</h1>
+    <p>CSS được định nghĩa trong thẻ <code>&lt;style&gt;</code>.</p>
+</body>
+</html>
+```
+
+### Đặc điểm:
+1. **Vị trí**:
+   - Thường nằm trong phần `<head>`.
+   - Có thể đặt trong `<body>` nhưng không khuyến khích.
+
+2. **Ứng dụng**:
+   - Dùng để định nghĩa các quy tắc CSS cho trang HTML.
+   - Dễ dàng chỉnh sửa và kiểm tra các quy tắc CSS trong một tệp HTML duy nhất.
+
+3. **Ưu và nhược điểm**:
+   - **Ưu điểm**:
+     - Dễ triển khai khi chỉ làm việc trên một tệp HTML.
+   - **Nhược điểm**:
+     - Khó quản lý khi làm việc với nhiều tệp HTML.
+     - Không tối ưu khi cần sử dụng chung các quy tắc CSS.
+
+### Lưu ý:
+- Với các dự án lớn, nên sử dụng tệp CSS riêng (external CSS) để tách biệt mã HTML và CSS.
 
 - [0. Menu](#0-menu)
