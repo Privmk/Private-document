@@ -1,6 +1,6 @@
 # HTML DUMBLE
 ###### *Created: Minh Quang Pham* 
-###### Các nguồn tham khảo: Freecodecamp, OpenAI-GPT4o
+###### Các nguồn tham khảo: Freecodecamp
 ---
 # 0. Menu
 > Title list
