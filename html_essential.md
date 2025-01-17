@@ -3,7 +3,7 @@
 ###### Các nguồn tham khảo: Freecodecamp, OpenAI-GPT4o
 ---
 # 0. Menu
-> Title list: Gồm 30 mục mô tả cơ bản về các thẻ phổ biến thường dùng trong HTML
+> Title list
 - [1. Title tag](#1-h1--h6-title-element-tag)
 - [2. Paragraph tag](#2-p-paragraph-element-tag)
 - [3. Comment syntax](#3-comment-syntax)
